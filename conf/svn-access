@@ -24,4 +24,4 @@
 #
 # Default rule below grants full read/write access to all authenticated users.
 [/]
-$authenticated = rw
+* = rw
