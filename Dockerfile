@@ -1,7 +1,7 @@
 FROM debian:stretch-slim
 LABEL name="httpd-svn" \
-      description="Apache httpd with Subversion" \
-      maintainer="erik.wramner@codemint.com" \
+      description="*Unauthenticated* Apache httpd with Subversion" \
+      maintainer="aaron@madlon-kay.com" \
       version="2.4.39-1.12.0-01"
 
 ENV HTTPD_VERSION 2.4.39
